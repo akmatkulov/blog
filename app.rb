@@ -14,3 +14,12 @@ end
 get '/' do
 	erb "Hello!"
 end
+
+get '/post' do
+	erb :post
+
+end
+
+post '/post' do
+	erb :message
+end
