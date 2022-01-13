@@ -23,3 +23,7 @@ end
 post '/post' do
 	erb :message
 end
+
+get '/contacts' do
+	erb :contacts
+end 
